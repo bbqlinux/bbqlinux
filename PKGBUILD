@@ -2,7 +2,7 @@
 
 pkgname=bbqlinux
 pkgver=20121111
-pkgrel=1
+pkgrel=2
 pkgdesc="BBQLinux meta package"
 arch=('any')
 depends=('bbqlinux-artwork' 'bbqlinux-config' 'bbqlinux-themes-slim' 'gnome-colors-icon-theme' 'gnome-colors-icon-theme-extras')
