@@ -1,8 +1,8 @@
 # Maintainer: Daniel Hillenbrand <codeworkx@bbqlinux.org>
 
 pkgname=bbqlinux
-pkgver=20121111
-pkgrel=2
+pkgver=20130110
+pkgrel=1
 pkgdesc="BBQLinux meta package"
 arch=('any')
 depends=('bbqlinux-artwork' 'bbqlinux-config' 'bbqlinux-themes-slim' 'gnome-colors-icon-theme' 'gnome-colors-icon-theme-extras')
