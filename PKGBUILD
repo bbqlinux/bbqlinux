@@ -1,7 +1,7 @@
 # Maintainer: Daniel Hillenbrand <codeworkx@bbqlinux.org>
 
 pkgname=bbqlinux
-pkgver=20130111
+pkgver=20130120
 pkgrel=1
 pkgdesc="BBQLinux meta package"
 arch=('any')
@@ -12,7 +12,4 @@ groups=('bbqlinux')
 
 package() {
     cd "$pkgdir"
-    mkdir -p etc
-
-    install -Dm700 "$srcdir/etc/bbqlinux-version" etc/bbqlinux-version
 }
