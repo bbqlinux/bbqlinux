@@ -1,0 +1,28 @@
+BBQLINUX
+========
+
+Submitting Patches
+------------------
+Patches are always welcome!
+
+Fork our repo's, make your changes, commit with a detailed message 
+and send us a pull request.
+
+Getting Started
+---------------
+
+Requirements for building BBQLinux:
+- Running Archlinux system (64-bit)
+- archiso package
+- bbqmkiso package
+
+Building a BBQLinux live media is pretty easy.
+
+Clone our "bbqiso" profile from https://github.com/bbqlinux/bbqiso to your local machine, 
+change into it's dir and start the build by running:
+
+sudo ./build.sh -v
+
+If you need more infos about archiso and how it works,
+visit the official archlinux wiki:
+https://wiki.archlinux.org/index.php/Archiso
