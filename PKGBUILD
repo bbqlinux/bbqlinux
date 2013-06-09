@@ -6,6 +6,7 @@ pkgrel=2
 pkgdesc="BBQLinux meta package"
 arch=('any')
 depends=('bbqlinux-artwork' 'bbqlinux-config' 'bbqlinux-python-switcher' 'gtk-theme-bbqlinux' 'lightdm-bbqlinux-greeter')
+makedepends('bash' 'wget')
 provides=('lsb-release')
 conflicts=('lsb-release')
 url="https://github.com/bbqlinux/bbqlinux"
