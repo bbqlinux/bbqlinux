@@ -1,11 +1,11 @@
 # Maintainer: Daniel Hillenbrand <codeworkx@bbqlinux.org>
 
 pkgname=bbqlinux
-pkgver=20131110
+pkgver=20131201
 pkgrel=1
 pkgdesc="BBQLinux meta package"
 arch=('any')
-depends=('bbqlinux-desktop-environment' 'bbqlinux-artwork' 'bbqlinux-config' 'bbqlinux-python-switcher' 'bbqlinux-java-switcher')
+depends=('bbqlinux-keyring' 'bbqlinux-desktop-environment' 'bbqlinux-artwork' 'bbqlinux-config' 'bbqlinux-python-switcher' 'bbqlinux-java-switcher')
 makedepends=('bash' 'wget')
 provides=('lsb-release')
 conflicts=('lsb-release')
