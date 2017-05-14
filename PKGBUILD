@@ -1,7 +1,7 @@
-# Maintainer: Daniel Hillenbrand <codeworkx@bbqlinux.org>
+# Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux
-pkgver=20150514
+pkgver=20170513
 pkgrel=1
 pkgdesc="BBQLinux meta package"
 arch=('any')

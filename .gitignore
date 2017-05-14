@@ -1,3 +1,4 @@
 *.[oa]
 *.pkg.*
 pkg/
+src/
