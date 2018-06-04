@@ -1,11 +1,11 @@
 # Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux
-pkgver=20170513
+pkgver=20180604
 pkgrel=1
 pkgdesc="BBQLinux meta package"
 arch=('any')
-depends=('bbqlinux-artwork' 'bbqlinux-config' 'bbqlinux-java-switcher' 'bbqlinux-keyring' 'bbqlinux-python-switcher')
+depends=('bbqlinux-artwork' 'bbqlinux-config' 'bbqlinux-keyring' 'bbqlinux-control-panel')
 makedepends=('bash' 'wget')
 provides=('lsb-release')
 conflicts=('lsb-release')
@@ -17,7 +17,7 @@ LSB_VERSION=1.4
 
 build() {
     cd "$srcdir"
-    wget http://downloads.sourceforge.net/lsb/lsb-release-$LSB_VERSION.tar.gz
+    wget https://downloads.sourceforge.net/lsb/lsb-release-$LSB_VERSION.tar.gz
     tar xvfz lsb-release-$LSB_VERSION.tar.gz
     
     cd lsb-release-$LSB_VERSION
